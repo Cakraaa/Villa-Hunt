@@ -1,0 +1,347 @@
+.h1-opening {
+    text-align: center;
+    color: #1363DF;
+}
+.carousel-item{
+    height: 650px;
+    color: black;
+}
+
+.carousel-item img{
+    align-items: center;
+    padding: 80px 140px;
+    background-color:#DFDFDE ;
+    border: #DFDFDE 50px;
+    margin-top: 70px;
+}
+
+.carousel-control-next-icon{
+    background-color:#1363DF ;
+    border-radius: 40px;
+    margin-top: 40px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    position: static;
+}
+
+.carousel-control-prev-icon{
+    background-color:#1363DF ;
+    border-radius: 40px;
+    margin-top: 40px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    position: static;
+}
+
+.konten{
+    background-color: #DFDFDE ;
+    background-size: 50%;
+
+}
+
+
+p{
+    padding: 15px;
+}
+
+.paragraf{
+    padding: 30px;
+}
+
+.flex-container1{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #DFDFDE;
+    backdrop-filter: blur(5px);
+    border-top: 50px solid#DFDFDE;
+    border-left: 50px;
+    border-radius: 20px;
+}
+
+.flex-end {
+    display: flex;
+    flex-direction: row-reverse;
+    border-top: 50px ;
+    border-left: 50px;
+  }	
+
+.imagecontent {
+	background-image: url('VillaAceSeminyak.jpg'); 
+	background-size: cover;
+	height: auto; 
+	width: 100%
+    
+
+    
+}
+
+.konten{
+      padding-right: 50px;
+      padding-top: 50px;
+  }
+
+.imagecontent2 {
+	background-image: url('pantai9.jpeg'); 
+	background-size: cover;
+	height: 300px; 
+	width: 100%
+    
+}
+
+
+  
+.konten2{
+      padding-left: 25px;
+  }
+
+  .imagecontent {
+	background-image: url('pantai10.jpeg'); 
+	background-size: cover;
+	height: 300px; 
+	width: 100%
+}
+
+.maps1 {
+
+    width:100%;
+    height:200px;
+    position:absolute;
+    left:10px;
+    top:460px; 
+}
+
+
+.maps2 {
+    text-align: right;
+    width: 100%;
+}
+
+.maps3 {
+
+    width:100%;
+    height:200px;
+    position:absolute;
+    left:10px;
+    top: 425px; 
+}
+
+
+.mapsPantai1 {
+    background-color:#1363DF ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.mapsPantai2 {
+    background-color:#1363DF ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.mapsPantai3 {
+    background-color:#1363DF ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.header{
+    padding: 50px;
+    text-align: center;
+    background: #7C99AC;
+    color : white;
+    font-size: 30 px;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .profile{
+    border-radius: 100%;
+    width: 300px;
+    height: 330px;
+  }
+  
+  .btn-secondary{
+    background-color: rgb(255, 146, 182);
+  }
+
+/* site Nav */
+
+  * {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position:sticky;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1363DF;
+}   
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: fixed;
+    top: 0px;
+    background-color: #ffffff;
+    z-index: 1;
+    border-bottom: 4px solid#1363DF;
+}
+
+nav ul {
+    list-style-type :none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #1363DF;
+    font-family: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-biru {
+    background-color:#1363DF ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/* site maps*/
+.pilihan-maps {
+    text-align: center;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    background-color: #47B5FF;
+    border-bottom: 4px solid#1363DF;
+}
+
+#animationButton {
+    transition: font-size 3s, color 2s;
+    transition-property: background-color #47B5FF;
+    transition-duration: 1s;
+}
+
+a.tbl-Villa-Prasturi-I {
+    background-color:#1363DF ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+a.tbl-Villa-Prasturi-II {
+    background-color:#1363DF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* site contact*/
+
+.deskrpsi {
+    font-size: 35px;
+    font-family: Geoprgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #1363DF;
+    position: sticky;
+}
+
+.tutor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-tutor{
+    width: 20%;
+    margin:0 auto;
+}
+
+.info-tutor img{
+    width: 100%;
+    border-radius: 80%;
+}
+
+.info-tutor p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color:#f7a440;
+}
+
+.info-tutor h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.kolom{
+    margin-top: 80px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom: 50px solid black;
+    border-top: 50px solid black;     
+}
+
+
